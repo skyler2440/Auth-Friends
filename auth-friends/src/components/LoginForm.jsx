@@ -23,9 +23,7 @@ function LogFrm({ errors, touched }) {
             <Field type="password" name="password" placeholder="Password" />
         </div>
         <button className="ui button" type="submit" onClick={() => {
-        if(token) {
-        document.querySelector('.logout').classList.add('show-link')
-        }
+      
         }}>
           Login
         </button>
