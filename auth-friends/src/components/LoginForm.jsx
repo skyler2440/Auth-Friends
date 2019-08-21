@@ -55,7 +55,7 @@ const LoginForm = withFormik({
   handleSubmit(values, formikBag) {
   // console.log(formikBag);
   formikBag.props.signIn(values)
-//   .then(() => {formikBag.props.props.history.push("/mytech")});
+  .then(() => {formikBag.props.history.push("/protected")});
   }
 
 })(LogFrm);
